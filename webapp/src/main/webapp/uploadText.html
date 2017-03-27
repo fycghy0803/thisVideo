@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>upload Text</title>
+    <link rel="stylesheet" href="trumbowyg/design/css/trumbowyg.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/uploadText.js"></script>
+</head>
+
+<body style="padding:20px;">
+
+<div class="panel panel-info">
+    <form id="uploadForm">
+    <div class="panel-heading">
+        <div class="form-group">
+            <label for="videoName">标题:</label>
+            <input type="text" id="videoName" name="videoName" class="form-inline form-control" placeholder="请输入标题">
+        </div>
+    </div>
+
+    <textarea id="form-content" name="picPath" class="editor" cols="30" rows="18" placeholder="请输入内容">
+    </textarea>
+    </form>
+    <div class="panel-footer">
+        <button class="btn-info btn" id="uploadBtn" onclick="return uploadText();">upload</button>
+    </div>
+</div>
+
+<script src="trumbowyg/trumbowyg.js"></script>
+<script src="trumbowyg/langs/fr.js"></script>
+<script src="trumbowyg/plugins/upload/trumbowyg.upload.js"></script>
+<script src="trumbowyg/plugins/base64/trumbowyg.base64.js"></script>
+<script>
+    $('#form-content').trumbowyg({
+        lang: 'en',
+        closable: false,
+        mobile: true,
+        fixedBtnPane: true,
+        fixedFullWidth: true,
+        semantic: true,
+        resetCss: true,
+        autoAjustHeight: false,
+        autogrow: false
+    });
+</script>
+</body>
+</html>
+

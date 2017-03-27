@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>会员管理</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/public.js"></script>
+    <script>
+        var currUserPageIndex = 0;
+        getUserInfo = function(optType) {
+            if(optType == 1) {
+                currUserPageIndex++;
+            } else {
+                currUserPageIndex--;
+            }
+            if(currUserPageIndex < 0) {currUserPageIndex = 0;}
+            var url = "loginAction/getUserList.action";
+            ajaxPost(url,"pageIndex=" + currUserPageIndex,getUserInfo);
+        }
+
+        getUserInfo.ajaxSuccess = function(data) {
+            if(data.ok) {
+                fullfillListObj($("#templeteTable"),$("#userList"),data.res);
+            } else {
+                alert("获取数据失败!" + data.message);
+            }
+        }
+
+        getInfoTotalCount = function () {
+            var url = "loginAction/getInfoTotalCount.action";
+            ajaxPost(url,null,getInfoTotalCount);
+        }
+
+        getInfoTotalCount.ajaxSuccess = function(data) {
+            if(data.ok) {
+                fullfillSingleObj($("#templeteCount"),$("#totalCount"),data.res);
+                fullfillListObj($("#templeteTable"),$("#userList"),data.res.userDtoList);
+            } else {
+                alert("获取数据失败!" + data.message);
+            }
+        }
+
+    </script>
+    <style rel="stylesheet">
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+<body onload="getInfoTotalCount()" class="panel-body">
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div>系统合计:</div>
+        <div id="totalCount">
+
+        </div>
+    </div>
+    <div class="panel-body">
+   <table class="table table-bordered">
+       <caption class="text-center text-primary"><h4>会员列表</h4></caption>
+       <thead>
+       <th>用户名</th>
+       <th>用户充值(金币)</th>
+       <th>用户收益(金币)</th>
+       <th>支付宝帐号</th>
+       <th>微信帐号</th>
+       <th>创建日期</th>
+       </thead>
+       <tbody id="userList">
+
+       </tbody>
+       <tfoot>
+         <tr>
+             <td colspan="3" class="text-right"><button class="btn btn-sm btn-default" onclick="getUserInfo(2);">上一页</button></td>
+             <td colspan="3"><button class="btn btn-sm btn-default" onclick="getUserInfo(1);">下一页</button></td>
+         </tr>
+       </tfoot>
+   </table>
+    </div>
+</div>
+
+<div id="templeteCount" style="display: none;">
+    <label class="label label-default">会员合计:${userCount}</label>
+    <label class="label label-default">系统视频合计:${sysVideoCount}</label>
+    <label class="label label-default">会员视频合计:${netVideoCount}</label>
+    <label class="label label-default">观看合计:${seeCount}</label>
+</div>
+
+<table style="display: none">
+    <tbody id="templeteTable">
+    <tr>
+        <td>${userName}</td>
+        <td>${userDeposit}</td>
+        <td>${userIncome}</td>
+        <td>${userPayaccount}</td>
+        <td>${userWxpayaccount}</td>
+        <td>${createDate}</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

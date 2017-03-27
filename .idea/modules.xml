@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dataAccess/dataAccess.iml" filepath="$PROJECT_DIR$/dataAccess/dataAccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myvideo.iml" filepath="$PROJECT_DIR$/myvideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapp/webapp.iml" filepath="$PROJECT_DIR$/webapp/webapp.iml" />
+    </modules>
+  </component>
+</project>

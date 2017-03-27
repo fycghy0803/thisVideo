@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload Videos</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/uploadVideos.js"></script>
+</head>
+<body>
+<div style="width: 500px;margin:100px auto;">
+    <div>
+        <div class="panel panel-title panel-heading">
+            <div>upload Videos</div>
+        </div>
+
+        <div class="panel panel-body panel-default">
+            <form id="uploadForm" role="form">
+                <div class="form-group">
+                    <label for="imagePath">pls select Videos(support Multi Select):</label>
+                    <input type="file" multiple=multiple id="imagePath" class="form-control input-sm" onchange="fileSelected(this);" name="videoFiles" placeholder="pls select Videos">
+                </div>
+            </form>
+            <div class="pager">
+                <button class="btn btn-info btn-sm" onclick="uploadVideos();" id="uploadBtn">upload</button>
+            </div>
+            <div class="progress progress-striped active">
+                <div id="progress" class="progress-bar progress-bar-success" role="progressbar"
+                     aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 0%;">
+                </div>
+            </div>
+
+            <div id="imageInfos">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="templeteImageInfo" style="display: none;">
+    <div class="well well-sm" style="margin: 10px;" >
+        <div>file path:<label id="fileName">${fileName}</label></div>
+        <div>file size:<label id="fileSize">${fileSize}</label></div>
+        <div>file type:<label id="fileType">${fileType}</label></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="artoolkitplus">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/artoolkitplus.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/ffmpeg.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/flycapture.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/javacpp.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/javacv.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/libdc1394.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/libfreenect.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/opencv.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Video/lib/videoinput.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

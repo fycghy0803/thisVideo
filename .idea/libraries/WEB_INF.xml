@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="WEB-INF">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF" />
+      <root url="file://$USER_HOME$/Downloads/Video/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/Video/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF" recursive="false" />
+  </library>
+</component>

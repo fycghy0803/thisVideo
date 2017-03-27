@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冲值/提现</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bass.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/public.js"></script>
+
+    <script>
+        var currApplyObj;
+
+        function withdrawApply(wcId, procRes, currObj) {
+            currApplyObj = currObj;
+            var uri = "loginAction/updatewithdrawRes.action";
+            var postdata = "wcId=" + wcId + "&procRes=" + procRes;
+            ajaxPost(uri, postdata, withdrawApply);
+        }
+
+        withdrawApply.ajaxSuccess = function (data) {
+            if (data.ok) {
+                $(currApplyObj).html("处理完毕!");
+            } else {
+                alert(data.message);
+            }
+        }
+
+        listWithdraw = function () {
+            var uri = "loginAction/getWithdrawList.action";
+            var postdata = "";
+            ajaxPost(uri, postdata, listWithdraw);
+        }
+
+        listWithdraw.ajaxSuccess = function (data) {
+            if (data.ok) {
+                var mes = $("#templeteTable").html();
+                $("#withdrawList").empty();
+                $.each(data.res, function (index, rec) {
+                    var recMsg = transferMes(mes, rec);
+                    $("#withdrawList").append(recMsg);
+                });
+            } else {
+                alert("获取列表失败!" + data.message);
+            }
+        }
+
+        updateDeposit = function () {
+            if ($("#userPayaccount").val() == "" || $("#userDeposit").val() == "") {
+                alert("请录入充值帐号和充值金币数量!");
+                return;
+            } else {
+                var url = "loginAction/deposit.action";
+                var postdata = "userDeposit=" + $("#userDeposit").val();
+                postdata += "&userPayaccount=" + $("#userPayaccount").val();
+                ajaxPost(url, postdata, updateDeposit);
+            }
+        }
+
+        updateDeposit.ajaxSuccess = function (data) {
+            if (data.ok) {
+                alert("冲值成功!");
+                $("#userPayaccount").val("");
+                $("#userDeposit").val("");
+            } else {
+                alert("冲值失败!" + data.message);
+            }
+        }
+    </script>
+    <style type="text/css" rel="stylesheet">
+       th {
+           text-align: center;
+       }
+    </style>
+</head>
+<body onload="listWithdraw()" class="panel-body">
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="table table-responsive">
+            <div class="col-lg-4">
+                <div class="input-group ">
+                    <span class="input-group-addon">支付宝/微信帐号:</span>
+                    <input type="text" id="userPayaccount" class="form-control">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="input-group">
+                    <span class="input-group-addon">冲值金额:</span>
+                    <input type="text" id="userDeposit" class="form-control">
+                </div>
+            </div>
+            <button onclick="updateDeposit();" class="btn btn-info">冲值</button>
+
+        </div>
+    </div>
+
+    <div class="panel-body">
+        <table class="table table-bordered">
+            <caption class="text-center"><h5>提现申请列表</h5></caption>
+            <thead style="text-align: center">
+            <th>提现日期</th>
+            <th>提现人</th>
+            <th>提现人支付宝帐号</th>
+            <th>提现人微信帐号</th>
+            <th>剩余金额</th>
+            <th>提现金额</th>
+            <th>操作</th>
+            </thead>
+            <tbody id="withdrawList">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<table style="display: none">
+    <tbody id="templeteTable">
+    <tr>
+        <td>${createDate}</td>
+        <td>${userName}</td>
+        <td>${userPayaccount}</td>
+        <td>${userWxpayaccount}</td>
+        <td>${userIncome}</td>
+        <td>${cashAmount}</td>
+        <td>
+            <div>
+                <button onclick="withdrawApply(${wcId},'Y',this);">处理</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

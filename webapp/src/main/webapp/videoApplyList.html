@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>审批视频</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bass.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/public.js"></script>
+
+    <script>
+        var currApplyObj;
+        function openVideo(videoId) {
+            window.open("openVideo.html?videoId=" + videoId, "_blank");
+        }
+
+        function videoApply(videoId, applyRes, currObj) {
+            currApplyObj = currObj;
+            var uri = "video/applyVideo.action";
+            var postdata = "videoId=" + videoId + "&isApplied=" + applyRes;
+            ajaxPost(uri, postdata, videoApply);
+        }
+
+        videoApply.ajaxSuccess = function (data) {
+            if (data.ok) {
+                $(currApplyObj).html("审核完毕!");
+            } else {
+                alert(data.message);
+            }
+        }
+
+        listVideos = function () {
+            var uri = "video/getVideoApplyList.action";
+            var postdata = "";
+            ajaxPost(uri, postdata, listVideos);
+        }
+
+        listVideos.ajaxSuccess = function (data) {
+            if (data.ok) {
+                var mes = $("#templeteTable").html();
+                $("#vidoeList").empty();
+                $.each(data.res, function (index, rec) {
+                    var recMsg = transferMes(mes, rec);
+                    $("#videoList").append(recMsg);
+                });
+            } else {
+                alert("获取列表失败!" + data.message);
+            }
+        }
+
+        function seeSource(videoId,videoType) {
+             if(videoType == 2) {
+                window.open("openVideo.html?videoId=" + videoid,"videoWindow");
+             } else {
+                 window.open("openImageOrText.html?videoId=" + videoId,"imageTextWindow");
+             }
+        }
+    </script>
+</head>
+<body onload="listVideos()" class="panel panel-body">
+
+<div class="panel-default panel">
+   <div class="panel-heading">视频审批</div>
+    <div class="panel-body">
+    <table class="table table-bordered">
+        <thead style="text-align: center">
+        <th>上传日期</th>
+        <th>上传人</th>
+        <th>资源名称</th>
+        <th>资源类型(2.视频/3.图片/4.文字)</th>
+        <th>操作</th>
+        </thead>
+        <tbody id="videoList">
+
+        </tbody>
+    </table>
+    </div>
+</div>
+
+<table style="display: none">
+    <tbody id="templeteTable">
+    <tr>
+        <td>${createDate}</td>
+        <td>${userName}</td>
+        <td>${videoName}</td>
+        <td>${videoType}</td>
+
+        <td>
+            <div>
+                <button onclick="seeSource(${videoId},${videoType})">查看</button>
+                <button onclick="videoApply(${videoId},'Y',this.parentNode)">审核通过</button>
+                <button onclick="videoApply(${videoId},'D',this.parentNode)">审核不通过</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<div id="templeteImg" style="display: none">
+    <img src="${picPath}" width="150px" height="150px">
+</div>
+</body>
+</html>

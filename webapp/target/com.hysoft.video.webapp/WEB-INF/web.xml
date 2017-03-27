@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <context-param>
+        <param-name>videoPath</param-name>
+        <param-value>/Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/videos</param-value>
+    </context-param>
+    <context-param>
+        <param-name>picPath</param-name>
+        <param-value>/Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/videoPics</param-value>
+    </context-param>
+    <context-param>
+        <param-name>advPath</param-name>
+        <param-value>/Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/advPics</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>ffmpegPath</param-name>
+        <param-value>/usr/local/bin/ffmpeg</param-value>
+    </context-param>
+
+    <filter>
+        <filter-name>characterEncodingFilter</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>characterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>springMVC</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>springMVC</servlet-name>
+        <url-pattern>*.action</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>-1</session-timeout>
+    </session-config>
+</web-app>
