@@ -78,7 +78,6 @@
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/css/bass.css" />
         <option value="$PROJECT_DIR$/dataAccess/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/js/bootstrap-paginator.js" />
-        <option value="$PROJECT_DIR$/webapp/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/js/public.js" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/js/index.js" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/openVideo.html" />
@@ -103,6 +102,7 @@
         <option value="$PROJECT_DIR$/webapp/src/main/java/com/hysoft/video/user/BaseController.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/java/com/hysoft/video/user/AdvController.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/java/com/hysoft/video/handler/EmosExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -182,9 +182,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,18 +261,12 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="table_sql" />
+              <option name="myItemId" value="exampleImages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,39 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -330,71 +289,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transfer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,7 +317,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Video/lib/videoinput.jar!/" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="web.xml&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/WEB-INF/web.xml&#10;ba&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/BaseController.java&#10;in&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;index.ht&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;open&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/openVideo.html&#10;index&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;mybat&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/resources/spring-mybatis.xml&#10;adv&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/AdvController.java&#10;bass.c&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/css/bass.css&#10;index.&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;per&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/person.html&#10;ad&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/AdvController.java&#10;adv.js&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/adv.js&#10;listadv&#9;null&#9;null&#10;listv&#9;null&#9;null&#10;pub&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/public.js&#10;tr&#9;PSI&#9;JAVA://com.hysoft.videoTransfter.TestVideoTransfter&#10;bass.&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/css/bass.css&#10;advdao&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dao/AdvDao.java&#10;advcon&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/AdvController.java&#10;advdto&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/AdvDto.java&#10;adv.j&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/adv.js&#10;ope&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/openVideo.html&#10;index.h&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;pers&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/person.html&#10;upload&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadVideos.html&#10;vide&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/VideoController.java&#10;uploadvi&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadVideos.html&#10;v&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/VideoController.java&#10;index.js&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/index.js&#10;inde&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;video&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/VideoDto.java&#10;web.xm&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/WEB-INF/web.xml&#10;uploadim&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadImages.html&#10;index.html&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;videocon&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/VideoController.java&#10;videoda&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dao/VideoDao.java&#10;my&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/resources/mybatis-video.xml&#10;vi&#9;PSI&#9;JAVA://com.hysoft.video.user.VideoController&#10;up&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadText.html&#10;uploadtext&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadText.html&#10;videodto&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/VideoDto.java&#10;VideoServiceImpl&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/service/impl/VideoServiceImpl.java&#10;UserServiceImpl&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/service/impl/UserServiceImpl.java&#10;app&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/applying.html&#10;po&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/pom.xml&#10;user&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/UserDto.java&#10;myba&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/resources/mybatis-user.xml&#10;vid&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/VideoDto.java&#10;userdto&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/UserDto.java" />
+    <property name="SearchEverywhereHistoryKey" value="index.&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;web.xml&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/WEB-INF/web.xml&#10;ba&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/BaseController.java&#10;in&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;index.ht&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;open&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/openVideo.html&#10;index&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;mybat&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/resources/spring-mybatis.xml&#10;adv&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/AdvController.java&#10;bass.c&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/css/bass.css&#10;per&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/person.html&#10;ad&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/AdvController.java&#10;adv.js&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/adv.js&#10;listadv&#9;null&#9;null&#10;listv&#9;null&#9;null&#10;pub&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/public.js&#10;tr&#9;PSI&#9;JAVA://com.hysoft.videoTransfter.TestVideoTransfter&#10;bass.&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/css/bass.css&#10;advdao&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dao/AdvDao.java&#10;advcon&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/AdvController.java&#10;advdto&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/AdvDto.java&#10;adv.j&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/adv.js&#10;ope&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/openVideo.html&#10;index.h&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;pers&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/person.html&#10;upload&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadVideos.html&#10;vide&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/VideoController.java&#10;uploadvi&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadVideos.html&#10;v&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/VideoController.java&#10;index.js&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/js/index.js&#10;inde&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;video&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/VideoDto.java&#10;web.xm&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/WEB-INF/web.xml&#10;uploadim&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadImages.html&#10;index.html&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/index.html&#10;videocon&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/java/com/hysoft/video/user/VideoController.java&#10;videoda&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dao/VideoDao.java&#10;my&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/resources/mybatis-video.xml&#10;vi&#9;PSI&#9;JAVA://com.hysoft.video.user.VideoController&#10;up&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadText.html&#10;uploadtext&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/uploadText.html&#10;videodto&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/VideoDto.java&#10;VideoServiceImpl&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/service/impl/VideoServiceImpl.java&#10;UserServiceImpl&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/service/impl/UserServiceImpl.java&#10;app&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/webapp/src/main/webapp/applying.html&#10;po&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/pom.xml&#10;user&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/UserDto.java&#10;myba&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/resources/mybatis-user.xml&#10;vid&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/VideoDto.java&#10;userdto&#9;FILE&#9;file:///Users/yulifan/Workspaces/myvideo/dataAccess/src/main/java/com/hysoft/video/user/dto/UserDto.java" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -1063,11 +965,12 @@
       <workItem from="1490340490733" duration="878000" />
       <workItem from="1490596226382" duration="1767000" />
       <workItem from="1490601491218" duration="2808000" />
+      <workItem from="1491013908952" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413604000" />
+    <option name="totallyTimeSpent" value="414372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,32 +987,32 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.7657512" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6553398" sideWeight="0.4838449" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33441558" sideWeight="0.49676898" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46191248" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21521036" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47249192" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15670437" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42556635" sideWeight="0.5323102" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49676898" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30452344" sideWeight="0.816273" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21567044" sideWeight="0.816273" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21728595" sideWeight="0.5213068" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15347335" sideWeight="0.18372704" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3867314" sideWeight="0.34329563" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="ITest" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17313915" sideWeight="0.34329563" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919094" sideWeight="0.4838449" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42556635" sideWeight="0.5323102" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16828479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1171,62 +1074,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/uploadVideo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/uploadVideos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/videoApplyList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/withdrawApplyList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataAccess/src/main/java/com/hysoft/video/user/service/AdvService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataAccess/src/main/java/com/hysoft/video/user/service/impl/WithdrawCashServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27704486">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataAccess/src/main/java/com/hysoft/video/user/service/WithdrawCashService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27704486">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21306819">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataAccess/src/main/java/com/hysoft/video/user/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039577838">
@@ -1495,7 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.055932205">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,7 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20338982">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1519,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3559322">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,6 +1373,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/payAccount.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36697248">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/exampleImages/h1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/exampleImages/h2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/exampleImages/openVideo1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/exampleImages/openVideo2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/exampleImages/person.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/exampleImages/uploadVideo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
