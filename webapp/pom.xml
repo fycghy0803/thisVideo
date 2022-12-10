@@ -12,7 +12,7 @@
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <springversion>4.3.1.RELEASE</springversion>
+        <springversion>6.0.0</springversion>
         <junitversion>4.12</junitversion>
         <finalName>webCenter</finalName>
     </properties>
